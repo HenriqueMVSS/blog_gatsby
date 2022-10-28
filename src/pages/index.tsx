@@ -1,10 +1,12 @@
 import * as React from "react"
 import type { HeadFC } from "gatsby"
+import '../layout/global.css'
+import { Appbar } from "../layout/Appbar"
 
 const IndexPage = () => {
   return (
     <>
-      <h1>Hello world</h1>
+      <Appbar />
     </>
   )
 }
