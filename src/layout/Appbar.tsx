@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import { MenuMobile } from "../components/MenuMobile";
 import { Footer } from "./footer";
 
 
+
 export function Appbar(){
+
+    const [menuMob, setMenuMob] = useState(false);
+
+
     return (
-       <> 
+       <>   
+             <MenuMobile 
+                menuMob={menuMob}
+                setMenuMob={setMenuMob}
+            />
             <div className="app-bar">
                 <div className="content-bar">
                     <h1 className="title-bar">História das Linguagens de Programação</h1>
