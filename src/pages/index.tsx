@@ -1,14 +1,14 @@
 import React from "react"
 import type { HeadFC } from "gatsby"
 import '../layout/global.css'
-import { Appbar } from "../layout/Appbar"
+import { Layout } from "../layout/Layout"
 
 const IndexPage = () => {
 
 
   return (
     <>
-      <Appbar />
+      <Layout />
     </>
   )
 }

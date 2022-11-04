@@ -6,11 +6,12 @@ export function Footer(){
         <div className="footer">
             <div className="content" ><a href="#"> Home</a></div>
             <div className="content"><a href="#">Contato</a></div>
+            <div className="content"><a href="#">Sobre-nos</a></div>
         </div>
 
         <style jsx>{`
             .footer {
-                background: #fff;
+                background: rgba(4,4,2,0.9);
                 border-top: 1px solid #ccc;
                 padding: 0 8px;
                 height: 40px;
@@ -24,18 +25,18 @@ export function Footer(){
             }   
 
             .content {
-                margin-left: 15px;
+                padding: 8px;
                 
             }
 
             a{
                 font-weight: bold;
                 text-decoration: none;
-                color: #144ecb;
+                color: #ffde00;
             }
 
             a:hover{
-              color:#0f3484;
+              color:#fff;
               text-decoration:underline ;
             }
         `}</style>
