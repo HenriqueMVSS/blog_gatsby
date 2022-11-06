@@ -19,7 +19,7 @@ export function Appbar(){
                        
                   
                     <div className="row">
-                       <a href="#">Home</a> 
+                       <a href="/">Home</a> 
                     </div>
                     <div className="row">
                          <a href="#">Contato</a>

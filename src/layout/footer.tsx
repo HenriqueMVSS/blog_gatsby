@@ -4,7 +4,7 @@ export function Footer(){
     return (
        <> 
         <div className="footer">
-            <div className="content" ><a href="#"> Home</a></div>
+            <div className="content" ><a href="/"> Home</a></div>
             <div className="content"><a href="#">Contato</a></div>
             <div className="content"><a href="#">Sobre-nos</a></div>
         </div>
