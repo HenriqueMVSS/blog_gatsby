@@ -18,10 +18,11 @@ export function Footer(){
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                position: fixed;
                 bottom: 0;
                 left:0;
                 width: 100%;
+                position: relative;
+                margin-top: 5px;
             }   
 
             .content {
@@ -33,11 +34,6 @@ export function Footer(){
                 font-weight: bold;
                 text-decoration: none;
                 color: #ffde00;
-            }
-
-            a:hover{
-              color:#fff;
-              text-decoration:underline ;
             }
         `}</style>
        </> 

@@ -2,27 +2,31 @@ import React from "react";
 import { Appbar } from "./Appbar";
 import { Footer } from "./footer";
 
-export function Layout(){
+export interface LayoutProps {
+    children: React.ReactNode;
+}
+
+export function Layout(props : LayoutProps){
     return(
         
     <>
-       <div className="app-bar">
+       <nav>
         <Appbar />
-       </div>
-       <div className="header">
-         teste
-       </div>
-       <div className="footer">
+       </nav>
+       <main className="content">
+         {props.children}
+       </main>
+       <footer className="footer">
             <Footer/>
-        </div>
+        </footer>
 
         <style jsx>{`
         .footer{
             display: none;
         }
 
-        .header {
-            padding-top:67px;
+        .content {
+            padding-top:80px;
             margin: auto;
             max-width: 980px;
         }
