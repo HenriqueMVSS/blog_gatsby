@@ -1,16 +1,22 @@
 import React from "react";
+import { Form } from "../components/Form";
 
-export function Footer(){
+export function FooterMobile(){
     return (
        <> 
         <div className="footer">
+            <Form />
+           <div className="footer-items">
             <div className="content" ><a href="/"> Home</a></div>
             <div className="content"><a href="#">Contato</a></div>
             <div className="content"><a href="#">Sobre-nos</a></div>
+           </div> 
+
         </div>
 
         <style jsx>{`
-            .footer {
+
+            .footer-items {
                 background: rgba(4,4,2,0.9);
                 border-top: 1px solid #ccc;
                 padding: 0 8px;

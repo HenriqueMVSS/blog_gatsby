@@ -31,7 +31,7 @@ export function Header({description, avatar, name} : HeaderProps){
 
                 .img-avatar {
                     width:180px;
-                    border-radius: 55px;
+                    border-radius: 90px;
                 }
 
                 .item:not(:first-child) {

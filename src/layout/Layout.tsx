@@ -1,6 +1,8 @@
 import React from "react";
+import { Footer } from "../components/Footer";
+import { FooterMobile } from "../components/FooterMobile";
 import { Appbar } from "./Appbar";
-import { Footer } from "./footer";
+
 
 export interface LayoutProps {
     children: React.ReactNode;
@@ -19,11 +21,12 @@ export function Layout(props : LayoutProps){
        <footer className="footer">
             <Footer/>
         </footer>
+        <footer className="footer-mobile">
+            <FooterMobile />
+        </footer>
+
 
         <style jsx>{`
-        .footer{
-            display: none;
-        }
 
         .content {
             padding-top:80px;
@@ -31,10 +34,18 @@ export function Layout(props : LayoutProps){
             max-width: 980px;
         }
 
+        .footer-mobile {
+            display:none;
+        }
+
         @media(max-width: 600px){
 
             .footer {
-                display: block;
+                display: none;
+            }
+
+            .footer-mobile {
+              display:block;
             }
 
         }
@@ -42,7 +53,11 @@ export function Layout(props : LayoutProps){
         @media(max-height: 600px){
 
             .footer {
-                display: block;
+                display: none;
+            }
+
+            .footer-mobile {
+              display:block;
             }
 
             }
