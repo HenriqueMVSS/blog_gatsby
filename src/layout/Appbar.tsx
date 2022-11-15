@@ -10,7 +10,9 @@ export function Appbar(){
             <div className="app-bar">
                 <div className="content-bar">
                     <div className="logo">
-                        <ItaLogo />
+                        <div className="ita-logo">
+                            <ItaLogo />
+                        </div>
                         <h1 className="title-bar">Itapemirim</h1>
                     </div>
                     <div className="search-bar">
@@ -57,6 +59,10 @@ export function Appbar(){
                     .logo {
                         display:flex;
                         flex:1;
+                    }
+
+                    .ita-logo{
+                        margin-top: 6px;
                     }
 
                     .title-bar {

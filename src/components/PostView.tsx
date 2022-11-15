@@ -20,9 +20,8 @@ export function PostView({image ,authorAvatar, authorUsername, content , publish
                     <img className="img-avatar" src={authorAvatar} alt="avatar"  />
                     <span><b>{authorUsername}</b></span>
                 </div>
-                <div className="content-item">
-                    <p>{content}</p>
-                </div>
+                <div className="content-item" dangerouslySetInnerHTML={{__html: content}} />
+              
                 <div className="content-item">
                     <time dateTime={publishDate.toJSON()}><b>Data da publicação: </b>{publishDate.toLocaleDateString("pt-br")}</time>
                 </div>
