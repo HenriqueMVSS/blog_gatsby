@@ -1,11 +1,21 @@
 import React from "react";
+import {Link} from "gatsby";
+import { GatsbyImage, IGatsbyImageData } from "gatsby-plugin-image";
 
 export type FeedProps = {
-    items: FeedItemProps[]
+    items: FeedItemProps[];
+    pagination?: PaginationProps;
 }
 
+export type PaginationProps = {
+    pageCount: number;
+    currentPage: number;
+    hasNextPage: boolean;
+    hasPreviousPage: boolean;
+  };
+
 export type FeedItemProps = {
-    image:string;
+    image:IGatsbyImageData;
     link: string;
     title: string;
 }
@@ -47,8 +57,8 @@ export function Feed({items}: FeedProps) {
 }
 
 function FeedItem({ image, link, title }: FeedItemProps){
-    return <a href={link}>
-        <img src={image} alt={title} />
+    return <Link to={link}>
+        <GatsbyImage image={image} alt={title} />
         
         <style jsx>{`
           img {
@@ -58,5 +68,5 @@ function FeedItem({ image, link, title }: FeedItemProps){
 
         `}</style>
 
-    </a>
+    </Link>
 }

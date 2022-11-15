@@ -1,5 +1,6 @@
 import React from "react";
 import { Form } from "../components/Form";
+import {Link} from "gatsby"
 
 export function FooterMobile(){
     return (
@@ -7,9 +8,8 @@ export function FooterMobile(){
         <div className="footer">
             <Form />
            <div className="footer-items">
-            <div className="content" ><a href="/"> Home</a></div>
-            <div className="content"><a href="#">Contato</a></div>
-            <div className="content"><a href="#">Sobre-nos</a></div>
+            <div className="content" ><Link to="/"> Home</Link></div>
+            <div className="content"><Link to="#">Contato</Link></div>
            </div> 
 
         </div>

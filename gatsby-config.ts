@@ -1,14 +1,16 @@
 import type { GatsbyConfig } from "gatsby"
 
+const pathPrefix= "/blog_gatsby";
+
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `blog`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Itapemirim`,
+    description: "Um site baseado na interface do Instagram",
+    image: `${pathPrefix}/icon.png`,
+    siteUrl: `https://henriquemvss.github.io`,
+    pathPrefix
   },
-  pathPrefix: "/blog_gatsby",
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
+  pathPrefix,
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-styled-jsx",

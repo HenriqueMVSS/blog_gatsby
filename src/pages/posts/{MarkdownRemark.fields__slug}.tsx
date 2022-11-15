@@ -2,16 +2,19 @@ import React from "react";
 import { PostView } from "../../components/PostView";
 import { Layout } from "../../layout/Layout";
 import {graphql, PageProps} from "gatsby"
+import { getImage } from 'gatsby-plugin-image';
 
 
 export default function Post({ data } : PageProps){
-    const {html, frontmatter: {author, date, title}} = (data as any).markdownRemark;
+    const {html, frontmatter: {author, date, title, image, authorImage}} = (data as any).markdownRemark;
     return (
         <Layout>
             <div className="post-page">
                 <PostView 
-                image="https://i.pinimg.com/736x/3e/57/24/3e5724106e62ec3d184010c2a0501a00--actuel-camping-car.jpg" authorAvatar="https://i0.wp.com/onibusetransporte.com/wp-content/uploads/2022/06/20220602_150018.jpg?resize=1024%2C752&ssl=1" 
-                authorUsername={author} content={html}  
+                image={getImage(image.childImageSharp)} 
+                authorAvatar= {getImage(authorImage.childImageSharp)}
+                authorUsername={author} 
+                content={html}  
                 publishDate={new Date(date)}/>
             </div>
 
@@ -43,6 +46,28 @@ query GetPostBySlug($id: String!) {
         author
         date
         title
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              aspectRatio: 1
+              height: 800
+              width: 800
+              layout: CONSTRAINED
+              formats: [WEBP,JPG]
+            )
+          }
+        }
+        authorImage {
+          childImageSharp {
+            gatsbyImageData(
+              aspectRatio: 1
+              formats: [WEBP, JPG]
+              height: 64
+              layout: CONSTRAINED
+              width: 64
+            )
+          }
+        }
       }
     }
   }

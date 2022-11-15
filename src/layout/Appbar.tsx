@@ -1,6 +1,7 @@
 import React from "react";
 import { ItaLogo } from "../components/ItaLogo";
 import { SearchBar } from "../components/SearchBar";
+import {Link} from "gatsby";
 
 export function Appbar(){
    
@@ -21,15 +22,11 @@ export function Appbar(){
                        
                   
                     <div className="row">
-                       <a href="/">Home</a> 
+                       <Link to={__dirname}>Home</Link> 
                     </div>
                     <div className="row">
-                         <a href="#">Contato</a>
+                         <Link to="#">Contato</Link>
                     </div>
-                    <div className="row">
-                         <a href="#">Sobre-nós</a>
-                    </div>
-                    
                 </div>
             </div>
            
@@ -45,6 +42,7 @@ export function Appbar(){
                         left: 0;
                         padding: 0 8px;
                         box-sizing: border-box;
+                        z-index: 1;
                     }
 
                     .content-bar {

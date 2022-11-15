@@ -1,9 +1,11 @@
 import React from "react";
 import { graphql } from 'gatsby';
+import { IGatsbyImageData } from 'gatsby-plugin-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 
 export type PostView = {
-    image:string;
-    authorAvatar:string;
+    image?:IGatsbyImageData;
+    authorAvatar?:IGatsbyImageData;
     authorUsername:string;
     content:string;
     publishDate:Date;
@@ -13,11 +15,11 @@ export function PostView({image ,authorAvatar, authorUsername, content , publish
     return (
         <div className="post-view">
             <div className="image-container row">
-                <img src={image} alt="" />
+                { image && <GatsbyImage image={image} alt="" />}
             </div>
             <div className="content-container row">
                 <div className="content-item-avatar">
-                    <img className="img-avatar" src={authorAvatar} alt="avatar"  />
+                   {authorAvatar && <GatsbyImage className="img-avatar" image={authorAvatar} alt="avatar" style={{borderRadius: 50, marginRight: 5}}/>}
                     <span><b>{authorUsername}</b></span>
                 </div>
                 <div className="content-item" dangerouslySetInnerHTML={{__html: content}} />
@@ -52,12 +54,6 @@ export function PostView({image ,authorAvatar, authorUsername, content , publish
               .content-item-avatar {
                 display:flex;
                 align-items:center;
-              }
-
-              .img-avatar {
-                width:100px;
-                border-radius:50px;
-                padding: 5px 10px
               }
 
               .content-container {
