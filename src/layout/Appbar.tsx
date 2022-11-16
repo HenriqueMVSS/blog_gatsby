@@ -20,10 +20,6 @@ export function Appbar(){
                         </div>
                         <h1 className="title-bar">Itapemirim</h1>
                     </div>
-                    <div className="search-bar">
-                        <SearchBar />
-                    </div>
-                       
                   
                     <div className="row">
                        <Link to={__dirname}><HomeIcon/></Link> 
