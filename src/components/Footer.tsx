@@ -1,16 +1,12 @@
 import React from "react";
-import { Form } from "../components/Form";
 
 export function Footer(){
     return (
        <> 
         <div className="footer">
-            <Form />
            <div className="footer-items">
             <div className="content" ><b>Itapemirim</b></div>
-            
            </div> 
-
         </div>
 
         <style jsx>{`

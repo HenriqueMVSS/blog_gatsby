@@ -5,7 +5,7 @@ const pathPrefix= "/blog_gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Itapemirim`,
-    description: "Um site baseado na interface do Instagram",
+    description: "Um site em homenagem a Viação Itapemirim",
     image: `${pathPrefix}/icon.png`,
     siteUrl: `https://henriquemvss.github.io`,
     pathPrefix

@@ -1,15 +1,17 @@
 import React from "react";
-import { Form } from "../components/Form";
 import {Link} from "gatsby"
+import { HomeIcon } from "./HomeIcon";
+import { ContactIcon } from "./ContactIcon";
+
+const pathContact = `/contact`
 
 export function FooterMobile(){
     return (
        <> 
         <div className="footer">
-            <Form />
            <div className="footer-items">
-            <div className="content" ><Link to="/"> Home</Link></div>
-            <div className="content"><Link to="#">Contato</Link></div>
+            <div className="content" ><Link to="/"><HomeIcon/></Link></div>
+            <div className="content"><Link to={pathContact}><ContactIcon/></Link></div>
            </div> 
 
         </div>

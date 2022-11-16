@@ -2,6 +2,10 @@ import React from "react";
 import { ItaLogo } from "../components/ItaLogo";
 import { SearchBar } from "../components/SearchBar";
 import {Link} from "gatsby";
+import { HomeIcon } from "../components/HomeIcon";
+import { ContactIcon } from '../components/ContactIcon';
+
+const pathContact = `/contact`
 
 export function Appbar(){
    
@@ -22,10 +26,10 @@ export function Appbar(){
                        
                   
                     <div className="row">
-                       <Link to={__dirname}>Home</Link> 
+                       <Link to={__dirname}><HomeIcon/></Link> 
                     </div>
                     <div className="row">
-                         <Link to="#">Contato</Link>
+                         <Link to={pathContact}><ContactIcon /></Link>
                     </div>
                 </div>
             </div>

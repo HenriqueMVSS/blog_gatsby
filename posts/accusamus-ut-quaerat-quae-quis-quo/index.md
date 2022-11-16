@@ -2,28 +2,13 @@
 title: "Accusamus ut quaerat quae quis quo."
 slug: "accusamus-ut-quaerat-quae-quis-quo"
 date: "2022-10-24T14:41:31.495Z"
-author: "ramon.barton"
-authorImage: "ramonbarton.jpg"
+author: "Viação Itapemirim"
+authorImage: "ita.jpg"
 image: "quod-consequatur-neque.jpg"
 ---
-- Quo fugiat iure facilis quisquam aliquid repudiandae provident earum voluptate. Veritatis sint neque sed itaque facilis. Distinctio totam sunt libero similique laborum accusantium blanditiis perspiciatis fugiat. Beatae quisquam reiciendis error magnam et eius. Laudantium ab quo velit qui iusto repudiandae natus temporibus.
-- Nesciunt assumenda asperiores vero.
-- Occaecati optio consectetur maiores nihil reiciendis vel.
-- Unde esse quisquam. Labore provident consectetur. Voluptas at cumque cumque.
-- Omnis consequuntur atque consequuntur. Illum deleniti nobis dicta voluptatum perspiciatis ipsam excepturi deserunt ducimus. Explicabo quam dolor debitis sunt ex accusantium fugit accusantium sunt. Repellendus esse aliquam perspiciatis. Totam earum incidunt dolores animi ut.
-- Ab libero corrupti nemo. Cumque quas vel laboriosam error nesciunt non ut cum. Minus nihil quas quod voluptatibus provident. Ex placeat eligendi maxime esse blanditiis corporis. Harum fugit eligendi illo perferendis debitis ipsam magnam.
-- Dolorem voluptas quasi nulla nostrum officia neque. Consequuntur rem recusandae quam. Dolore soluta minima saepe repudiandae perspiciatis id nihil laborum. Tempore modi molestiae maxime magni nam quod expedita. Dolores explicabo ab fuga. Excepturi eos eos minima.
-Facilis dicta nisi aliquid fugiat et pariatur. Minima facere corporis esse consequuntur amet nisi consequatur odio. Quidem harum magni expedita magnam cum aliquam ipsam ratione. Odio nisi nihil. Provident hic architecto ratione asperiores non beatae. Hic vel qui.
-Laboriosam nemo corporis saepe eligendi ut eaque eaque corporis. Cupiditate at voluptatem facilis fugiat ab culpa alias porro nesciunt. Modi omnis quod nulla quidem dolore dolor animi placeat. Voluptatum ullam quaerat.
-- Modi hic blanditiis tempore doloremque optio.
-- dolorem ipsum quis
-- natus
-- Labore eius iure beatae veniam nesciunt ullam ipsa. Est temporibus culpa veniam. Aut aliquam eum distinctio animi neque. Ad placeat minus tenetur ullam. Atque adipisci impedit perspiciatis quos veritatis dicta reiciendis eligendi provident. Deserunt expedita veniam vitae tempore.
-Corporis ratione repellat impedit. Alias fugit quod voluptate corporis atque sequi quod. Quo sequi quaerat reprehenderit voluptate corrupti amet consectetur. Inventore labore ea iste et quia dolores assumenda ad pariatur. Cupiditate qui consequatur magnam assumenda.
-Tempora molestiae eius animi sunt recusandae illum soluta. Soluta placeat sed ad in porro deserunt. Assumenda itaque fugiat atque ab. Quibusdam ipsa ea. Eius nisi ipsa saepe labore harum fugiat iure eligendi maxime.
-- Tempore minus in eos expedita repellat aspernatur.
-Esse commodi laborum.
-- Dolorem autem ullam quisquam vel minus. Alias dolores expedita fugiat illum vitae. Aut suscipit recusandae earum error accusantium.
-- Delectus voluptatibus nemo repellendus. Quo doloribus repudiandae quia in molestias. Natus distinctio dolorum eaque qui eos molestias fugiat necessitatibus. Nisi ipsa atque recusandae aperiam. Sequi esse corporis libero incidunt illo tempore. Odio reiciendis voluptates.
-Commodi sed cupiditate ipsum odit. Laborum sapiente corrupti laboriosam itaque inventore corrupti quod. Praesentium maxime ipsum quae a cumque. Repudiandae illum magni aliquid ullam perferendis. Earum reiciendis distinctio alias quasi asperiores maxime recusandae ratione non. At laborum minima ab quod.
-Exercitationem aliquid a placeat suscipit sint impedit delectus. Veniam animi fuga consectetur. Voluptate porro dolorem corporis architecto est ut. Quos rerum cumque iste corrupti doloremque rerum.
+# Tribus 3
+No final de 1989, a empresa lança o Tribus 3 e em 1995 a Itapemirim adquire junto a Mercedes-Benz mais monoblocos O400 com ar condicionado para a inauguração de um novo serviço, o Starbus: o primeiro ônibus executivo rodoviário de três eixos do país. Em 1999, o serviço foi reforçado com aquisições de veículos da marca Busscar e de alguns exemplares do Tribus 4 (lançado em 1997) equipados com ar condicionado. O serviço convencional também foi reforçado pelo modelo Tribus 4 sem ar.
+
+Nessa época, Camilo Cola, também já sendo proprietário de outras empresas, decide incorporar a viação ao Grupo Itapemirim, englobando-se a mais 30 empresas do empresário a qual empregavam quase 20 mil pessoas na época.
+
+No ano de 1998, a empresa lança o Golden Service, que oferece o conforto de um ônibus leito por uma tarifa econômica de um executivo. Os primeiros carros que estreariam o novo serviço eram inicialmente do modelo Tribus 4 fabricado pela empresa equipados com ar condicionado e depois vieram os carros da marca Busscar. No ano seguinte, o serviço leito Rodonave também foi reforçado com aquisições de veículos da marca Busscar na configuração leito. Ainda na época, a Itapemirim apresenta o Cinebus, o primeiro ônibus a possuir um telão a bordo, para exibição de dois filmes durante as viagens.
