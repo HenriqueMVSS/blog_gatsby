@@ -1,10 +1,9 @@
 import React from "react";
 import { PostView } from "../../components/PostView";
 import { Layout } from "../../layout/Layout";
-import {graphql, HeadProps, PageProps} from "gatsby"
+import {graphql, PageProps} from "gatsby"
 import { getImage } from 'gatsby-plugin-image';
-import type { HeadFC } from "gatsby"
-import { MetaTags } from "../../components/MetaTags";
+
 
 
 export default function Post({ data } : PageProps){
@@ -75,6 +74,3 @@ query GetPostBySlug($id: String!) {
   }
 
 `
-export const Head = ({ data }: HeadProps) => {
-  return <MetaTags title={`Viação Itapemirim`}  />;
-};
