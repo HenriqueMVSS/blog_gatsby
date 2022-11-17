@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Viação Itapemirim feito com Gatsby
+  Viação Itapemirim desenvolvido com Gatsby
 </h1>
 
 ## 🚀 Quick start
