@@ -1,11 +1,12 @@
 import React from "react"
-import type { HeadFC } from "gatsby"
+import type { HeadFC, HeadProps } from "gatsby"
 import '../layout/global.css'
 import { Layout } from "../layout/Layout"
 import { Header, HeaderProps } from "../layout/Header"
 import { Feed } from "../components/Feed"
 import { graphql, PageProps } from "gatsby"
 import {getImage} from "gatsby-plugin-image"
+import { MetaTags } from "../components/MetaTags"
 
 const IndexPage = ({data}: PageProps) => {
   const profileHeaderProps = (data as any).json as HeaderProps;
@@ -66,5 +67,7 @@ export const pageQuery = graphql`
 `
 
 export default IndexPage
-
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head = ({ data }: HeadProps) => {
+  const { name } = (data as any).json;
+  return <MetaTags title={`${name}`}  />;
+};

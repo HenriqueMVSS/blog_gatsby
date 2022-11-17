@@ -1,8 +1,10 @@
 import React from "react";
+import type { HeadFC, HeadProps } from "gatsby"
 import { Footer } from "../components/Footer";
 import { FooterMobile } from "../components/FooterMobile";
 import { Form } from "../components/Form";
 import { Appbar } from "../layout/Appbar";
+import { MetaTags } from "../components/MetaTags";
 
 export default function Contact(){
     
@@ -77,3 +79,7 @@ export default function Contact(){
         
     )
 }
+export const Head = ({ data }: HeadProps) => {
+    return <MetaTags title={`Viação Itapemirim`}  />;
+  };
+  
