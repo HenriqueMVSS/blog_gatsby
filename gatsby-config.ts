@@ -1,10 +1,11 @@
 import type { GatsbyConfig } from "gatsby"
 
 const pathPrefix= "/blog_gatsby";
+const title = `Itapemirim`;
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Itapemirim`,
+    title,
     description: "Um site em homenagem a Viação Itapemirim",
     image: `${pathPrefix}/icon.png`,
     siteUrl: `https://henriquemvss.github.io`,
@@ -33,6 +34,19 @@ const config: GatsbyConfig = {
       options: {
         typeName:`Json`,
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: title,
+        short_name: title,
+        start_url: "/",
+        background_color: "rgb(241,210,16)",
+        theme_color: "rgb(241,210,16)",
+        display: "standalone",
+        icon: "src/images/icon.png",
+        crossOrigin: `use-credentials`,
+      },
     },
     "gatsby-transformer-remark",
     "gatsby-plugin-image",
