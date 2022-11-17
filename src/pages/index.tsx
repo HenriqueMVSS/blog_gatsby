@@ -67,3 +67,7 @@ export const pageQuery = graphql`
 `
 
 export default IndexPage
+export const Head = ({ data }: HeadProps) => {
+  const { name } = (data as any).json;
+  return <MetaTags title={`${name}`}  />;
+};
