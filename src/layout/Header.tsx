@@ -1,4 +1,5 @@
 import React from "react";
+import { Avatar } from '../components/Avatar';
 
 export type HeaderProps = {
     description: string;
@@ -11,7 +12,7 @@ export function Header({description, avatar, name} : HeaderProps){
         <div className="header">
             <div className="row">
                 <div className="avatar item">
-                    <img className="img-avatar" src={avatar} alt="avatar"  />
+                    <Avatar />
                 </div>
             </div>
             <div className="row">
