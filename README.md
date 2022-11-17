@@ -1,21 +1,21 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://henriquemvss.github.io/blog_gatsby/" title="Viação Itapemirim Blog">
+    <img alt="Viação Itapemirim" src="./src/images/avatar.jpg" style="border-radius:90px; border: 1px solid rgba(0,0,0, 0.4)" width="150" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal TypeScript starter
+  Viação Itapemirim feito com Gatsby
 </h1>
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone the repository**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+    Use the npm.
 
     ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
+    # install dependencies running this command
+      npm install
     ```
 
 2.  **Start developing.**
@@ -23,32 +23,80 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    in the root of the project, open a terminal and run the command
+    npm run start
     ```
 
 3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+    Your site is now running at http://localhost:8000
+  
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+4.  **If you want to test the application follow the link:**
 
-4.  **Learn more**
+    Site is now running at https://henriquemvss.github.io/blog_gatsby/
+        
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+5.  **Technologies used**
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    - Gatsby
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    - React
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    - TypeScript
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    - GraphQL
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    - React-icons
 
-## 🚀 Quick start (Gatsby Cloud)
+    - Styled-jsx
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+## 🚀 Project screens
+<p align="center">
+    Fully responsive website with SEO practices developed in honor of Itapemirim, one of the largest companies in the road sector in the country. It shows images of iconic buses used by the company and by clicking on the photos of the buses it is possible to see a little of their history.
+</p><br>
+<p align="center">
+   Desktop Version
+</p>
+<p align="center">
+  <img alt="Gatsby" src="./src/images/feed-desktop.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="550" />
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/footer-desktop.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="550" />
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/history-desktop.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="550" />
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/contact-desktop.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="550" />
+</p><br>
+
+<p align="center">
+   Mobile Version
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/feed-mobile.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="250" />
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/footer-mobile.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="250" />
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/history-mobile.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="250" />
+</p>
+
+<p align="center">
+  <img alt="Gatsby" src="./src/images/contact-mobile.png" style="border-radius:5px; border: 1px solid rgba(0,0,0, 0.4)" width="250" />
+</p>
+
+## 🚀 Final considerations
+
+<p align="center">
+    Project developed to improve my knowledge in the technologies mentioned above, learned during my specialization in fullstack development.
+</p><br>
